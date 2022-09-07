@@ -1,0 +1,29 @@
+{
+    "name": "DnD Beyond Print Monster Stat Blocks",
+    "description": "Style DnD Beyond monster stat blocks for printing",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["activeTab", "scripting", "tabs", "declarativeContent"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/dungeons-and-dragons.png",
+            "32": "/images/dungeons-and-dragons.png",
+            "48": "/images/dungeons-and-dragons.png",
+            "128": "/images/dungeons-and-dragons.png"
+        }
+    },
+    "icons": {
+        "16": "/images/dungeons-and-dragons.png",
+        "32": "/images/dungeons-and-dragons.png",
+        "48": "/images/dungeons-and-dragons.png",
+        "128": "/images/dungeons-and-dragons.png"
+    },
+    "options_page": "options.html",
+    "content_scripts": [
+        {
+            "css": ["hide.css"],
+            "matches": ["https://www.dndbeyond.com/monsters/*"]
+        }
+    ]
+}

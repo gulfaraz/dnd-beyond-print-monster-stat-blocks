@@ -1,0 +1,37 @@
+.dnd-hide .site-bar,
+.dnd-hide header.main,
+.dnd-hide #mega-menu-target,
+.dnd-hide section.ad-container,
+.dnd-hide header.page-header,
+.dnd-hide div#footer-push,
+.dnd-hide footer#footer,
+.dnd-hide .more-info-content,
+.dnd-hide .image,
+.dnd-hide .detail-content footer,
+.dnd-hide .more-info::after,
+.dnd-hide .homebrew-comments,
+.dnd-hide .details-aside,
+.dnd-hide .ct-beyond20-settings-button,
+.dnd-hide .ct-beyond20-custom-roll-button,
+.dnd-hide .ct-beyond20-roll,
+.dnd-hide .ct-beyond20-custom-icon,
+.dnd-hide .mon-stat-block__beyond20-roll-initiative {
+    display: none !important;
+}
+
+.dnd-hide #site-main,
+.dnd-hide .more-info {
+    padding: 0 !important;
+}
+
+.dnd-hide .mon-stat-block {
+    margin: 0 !important;
+}
+
+html body.responsive-enabled.dnd-hide div#content {
+    padding: 10px !important;
+}
+
+.dnd-hide .ct-beyond20-custom-roll {
+    text-decoration: none !important;
+}
