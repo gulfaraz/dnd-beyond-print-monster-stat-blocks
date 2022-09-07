@@ -15,7 +15,8 @@
 .dnd-hide .ct-beyond20-custom-roll-button,
 .dnd-hide .ct-beyond20-roll,
 .dnd-hide .ct-beyond20-custom-icon,
-.dnd-hide .mon-stat-block__beyond20-roll-initiative {
+.dnd-hide .mon-stat-block__beyond20-roll-initiative,
+.dnd-hide .ct-beyond20-spell-icon {
     display: none !important;
 }
 
@@ -32,6 +33,7 @@ html body.responsive-enabled.dnd-hide div#content {
     padding: 10px !important;
 }
 
-.dnd-hide .ct-beyond20-custom-roll {
+.dnd-hide .ct-beyond20-custom-roll,
+.dnd-hide .spell-tooltip {
     text-decoration: none !important;
 }
