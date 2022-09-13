@@ -34,6 +34,11 @@ html body.responsive-enabled.dnd-hide div#content {
 }
 
 .dnd-hide .ct-beyond20-custom-roll,
-.dnd-hide .spell-tooltip {
+.dnd-hide .spell-tooltip,
+.dnd-hide .mon-stat-block .tooltip-hover,
+.dnd-hide .mon-stat-block .tooltip-hover:hover,
+.dnd-hide .mon-stat-block .tooltip-hover:focus,
+.dnd-hide .mon-stat-block .tooltip-hover:active,
+.dnd-hide .mon-stat-block .tooltip-hover:visited {
     text-decoration: none !important;
 }
