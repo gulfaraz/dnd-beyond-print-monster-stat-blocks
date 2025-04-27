@@ -22,8 +22,12 @@
 }
 
 .dnd-hide #site-main,
-.dnd-hide .more-info {
+.dnd-hide .more-info,
+.dnd-hide .more-info .detail-content {
     padding: 0 !important;
+    margin: auto !important;
+    background: none !important;
+    border: none !important;
 }
 
 .dnd-hide .mon-stat-block {
