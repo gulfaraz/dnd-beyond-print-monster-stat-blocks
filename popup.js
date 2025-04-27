@@ -1,5 +1,10 @@
 const toggle = document.getElementById("toggle");
 
+chrome.storage.sync.get({ checked: false }, ({ checked }) => {
+    toggle.checked = checked;
+    toggleClass(checked);
+});
+
 toggle.addEventListener("change", async () => {
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
 
@@ -16,4 +21,6 @@ function toggleClass(checked) {
     } else {
         document.body.classList.remove("dnd-hide");
     }
+
+    chrome.storage.sync.set({ checked });
 }

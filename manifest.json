@@ -3,7 +3,13 @@
     "description": "Style DnD Beyond monster stat blocks for printing",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["activeTab", "scripting", "tabs", "declarativeContent"],
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs",
+        "declarativeContent",
+        "storage"
+    ],
     "action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -23,6 +29,8 @@
     "content_scripts": [
         {
             "css": ["hide.css"],
+            "js": ["page.js"],
+            "runAt": "document_idle",
             "matches": ["https://www.dndbeyond.com/monsters/*"]
         }
     ]
