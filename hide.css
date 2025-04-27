@@ -30,6 +30,7 @@
     border: none !important;
 }
 
+.dnd-hide .monster-details,
 .dnd-hide .mon-stat-block {
     margin: 0 !important;
 }
